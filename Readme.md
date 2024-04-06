@@ -24,23 +24,23 @@ java -jar ./build/libs/drivers-0.0.1-SNAPSHOT.jar
 
 List
 ```
-http://localhost/api/v1/drivers
+http://demo.devmakk.com/api/v1/drivers
 
 ```
 
 Search 
 ```
-http://localhost/api/v1/drivers/search?employeeId=611575
+http://demo.devmakk.com/api/v1/drivers/search?employeeId=611575
 ```
 
 
 Top 10 By Km Driven in short time, ```limit``` is optional
 ```
-http://localhost/api/v1/drivers/topKmDriven?limit=10
+http://demo.devmakk.com/api/v1/drivers/topKmDriven?limit=10
 ```
 
 
 Top 10 By Safe Speed, ```limit``` is optional
 ```
-http://localhost/api/v1/drivers/topSafeSpeed?limit=10
+http://demo.devmakk.com/api/v1/drivers/topSafeSpeed?limit=10
 ```
